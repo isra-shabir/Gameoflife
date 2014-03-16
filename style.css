@@ -1,0 +1,17 @@
+/*
+style sheet
+*/
+
+table {
+	min-height: 600px;
+	min-width: 600px;
+	border-collapse: collapse;
+}
+
+.alive {
+	background-color: red;	
+}
+
+td {
+	border: 1px solid gray;
+}
