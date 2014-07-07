@@ -49,6 +49,7 @@ var Board = function(size, table_id) {
 		// attach click handler
 		$table.on("click", "td", function() {
 			var $square = $(this);
+			console.log($(this));
 			if($square.hasClass("alive")) {
 				$square.removeClass("alive");
 			} else {
